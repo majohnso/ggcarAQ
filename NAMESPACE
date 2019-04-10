@@ -1,0 +1,3 @@
+useDynLib(ggcarAQ, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+importFrom("stats", "quantile", "rnorm")
